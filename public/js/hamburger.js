@@ -243,10 +243,29 @@
 
     function handleWAction() {
         if (!playing) return;
-        if (px === 4 && py === 2) { spawnedItems.forEach(it => { if (it.x === px && it.y === py && ["🥩", "🥬", "🍅"].includes(it.emoji)) it.checked = true; }); if (holding && ["🥩", "🥬", "🍅"].includes(holding.emoji)) holding.checked = true; }
-        if (px === 5 && py === 2) { spawnedItems.forEach(it => { if (it.x === px && it.y === py && it.emoji === "🥩" && it.checked) { it.cooked = true; it.checked = false; } }); if (holding && holding.emoji === "🥩" && holding.checked) { holding.cooked = true; holding.checked = false; } }
+
+        // 包丁スペース（置いたものだけ切れる）
+        if (px === 4 && py === 2) {
+            spawnedItems.forEach(it => {
+                if (it.x === px && it.y === py && ["🥩", "🥬", "🍅"].includes(it.emoji)) {
+                    it.checked = true;
+                }
+            });
+        }
+
+        // 火のスペース（置いた肉だけ焼ける）
+        if (px === 5 && py === 2) {
+            spawnedItems.forEach(it => {
+                if (it.x === px && it.y === py && it.emoji === "🥩" && it.checked) {
+                    it.cooked = true;
+                    it.checked = false;
+                }
+            });
+        }
+
         renderGrid();
     }
+
 
     document.addEventListener("keydown", e => {
         if (!playing) return;
