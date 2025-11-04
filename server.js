@@ -1,3 +1,4 @@
+// ===== モジュール設定 =====
 const express = require("express");
 const path = require("path");
 
@@ -8,6 +9,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
+// ===== 変数定義 =====
 let currentTime = 0;
 let timerInterval = null;
 let activeOrders = [];
@@ -23,7 +25,7 @@ const BURGER_RECIPES = {
 
 // ===== ページルーティング =====
 app.get("/", (req, res) => {
-    res.render("index"); // views/index.ejs
+    res.render("index");
 });
 
 app.get("/hamburger", (req, res) => {
@@ -44,13 +46,24 @@ app.post("/start", (req, res) => {
             currentTime--;
             tickCount++;
 
+            // 10秒ごとに注文追加
             if (tickCount % 10 === 0 && activeOrders.length < 7) {
                 addRandomOrder();
             }
 
-            activeOrders.forEach(o => o.remain--);
+            // 注文残り時間減少・スコア減点処理
+            activeOrders.forEach(o => {
+                o.remain--;
+                if (o.remain === 0 && !o.expired) {
+                    scores["anon"] = (scores["anon"] || 0) - 30;
+                    o.expired = true;
+                }
+            });
+
+            // 期限切れ注文を削除
             activeOrders = activeOrders.filter(o => o.remain > 0);
 
+            // タイマー終了処理
             if (currentTime <= 0) {
                 clearInterval(timerInterval);
                 timerInterval = null;
@@ -86,7 +99,14 @@ app.post("/resume", (req, res) => {
                 addRandomOrder();
             }
 
-            activeOrders.forEach(o => o.remain--);
+            activeOrders.forEach(o => {
+                o.remain--;
+                if (o.remain === 0 && !o.expired) {
+                    scores["anon"] = (scores["anon"] || 0) - 30;
+                    o.expired = true;
+                }
+            });
+
             activeOrders = activeOrders.filter(o => o.remain > 0);
 
             if (currentTime <= 0) {
@@ -114,7 +134,7 @@ app.post("/end", (req, res) => {
 // ===== 状態取得・更新 =====
 app.get("/status", (req, res) => {
     const displayTime = isStarted ? currentTime : 120;
-    res.json({ currentTime: displayTime, activeOrders });
+    res.json({ currentTime: displayTime, activeOrders, score: scores["anon"] || 0 });
 });
 
 app.post("/score_update", (req, res) => {
@@ -130,7 +150,8 @@ function addRandomOrder() {
     activeOrders.push({
         name,
         items: BURGER_RECIPES[name].join(" + "),
-        remain: 40
+        remain: 40,
+        expired: false
     });
 }
 
@@ -139,6 +160,7 @@ function resetGame() {
     timerInterval = null;
     currentTime = 0;
     activeOrders = [];
+    scores = {};
 }
 
 // ===== 実行 =====
