@@ -1,0 +1,125 @@
+Date : 2025-11-10 22:20:38
+Directory : c:\Users\maidu\Music\OneDrive\ドキュメント\express__app
+Total : 73 files,  16378 codes, 761 comments, 2208 blanks, all 19347 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         45 |      7,011 |        666 |        961 |      8,638 |
+| PostCSS    |         12 |      6,732 |         80 |      1,152 |      7,964 |
+| JSON       |          8 |      1,876 |          0 |          2 |      1,878 |
+| HTML       |          5 |        492 |         15 |         92 |        599 |
+| XML        |          1 |        255 |          0 |          0 |        255 |
+| YAML       |          1 |          9 |          0 |          1 |         10 |
+| Markdown   |          1 |          3 |          0 |          0 |          3 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                    |         73 |     16,378 |        761 |      2,208 |     19,347 |
+| . (Files)                                                                                                            |         10 |      2,195 |         26 |         46 |      2,267 |
+| public                                                                                                               |          2 |        434 |         33 |         39 |        506 |
+| public\css                                                                                                           |          1 |        161 |         15 |         20 |        196 |
+| public\js                                                                                                            |          1 |        273 |         18 |         19 |        310 |
+| report                                                                                                               |         59 |     13,703 |        696 |      2,112 |     16,511 |
+| report (Files)                                                                                                       |          6 |        208 |          6 |         41 |        255 |
+| report\assets                                                                                                        |         48 |     13,249 |        687 |      2,031 |     15,967 |
+| report\assets\css                                                                                                    |          9 |      6,527 |         65 |      1,126 |      7,718 |
+| report\assets\css (Files)                                                                                            |          5 |        302 |          1 |         64 |        367 |
+| report\assets\css\vendor                                                                                             |          4 |      6,225 |         64 |      1,062 |      7,351 |
+| report\assets\font                                                                                                   |          1 |        255 |          0 |          0 |        255 |
+| report\assets\scripts                                                                                                |         38 |      6,467 |        622 |        905 |      7,994 |
+| report\assets\scripts (Files)                                                                                        |          5 |        454 |         49 |        103 |        606 |
+| report\assets\scripts\bundles                                                                                        |          2 |         11 |          0 |          0 |         11 |
+| report\assets\scripts\vendor                                                                                         |         31 |      6,002 |        573 |        802 |      7,377 |
+| report\assets\scripts\vendor (Files)                                                                                 |          7 |        393 |         85 |        139 |        617 |
+| report\assets\scripts\vendor\codemirror                                                                              |         24 |      5,609 |        488 |        663 |      6,760 |
+| report\assets\scripts\vendor\codemirror (Files)                                                                      |          2 |      4,089 |        387 |        490 |      4,966 |
+| report\assets\scripts\vendor\codemirror\util                                                                         |         22 |      1,520 |        101 |        173 |      1,794 |
+| report\files                                                                                                         |          5 |        246 |          3 |         40 |        289 |
+| report\files\server_js                                                                                               |          5 |        246 |          3 |         40 |        289 |
+| views                                                                                                                |          2 |         46 |          6 |         11 |         63 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                             | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\.eslintrc.cjs                                                      | JavaScript |         13 |          0 |          1 |         14 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\README.md                                                          | Markdown   |          3 |          0 |          0 |          3 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\eslint.config.mjs                                                  | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\eslint_report.json                                                 | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\express_report.json                                                | JSON       |        663 |          0 |          0 |        663 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\loadtest.yml                                                       | YAML       |          9 |          0 |          1 |         10 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\package-lock.json                                                  | JSON       |      1,112 |          0 |          1 |      1,113 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\package.json                                                       | JSON       |         96 |          0 |          1 |         97 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\public\css\hamburger.css                                           | PostCSS    |        161 |         15 |         20 |        196 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\public\js\hamburger.js                                             | JavaScript |        273 |         18 |         19 |        310 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\css\morris.css                                       | PostCSS    |          2 |          0 |          1 |          3 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\css\plato-display.css                                | PostCSS    |         76 |          0 |         13 |         89 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\css\plato-file.css                                   | PostCSS    |         74 |          0 |         14 |         88 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\css\plato-overview.css                               | PostCSS    |         97 |          0 |         21 |        118 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\css\plato.css                                        | PostCSS    |         53 |          1 |         15 |         69 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\css\vendor\bootstrap.css                             | PostCSS    |      5,780 |         11 |      1,014 |      6,805 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\css\vendor\codemirror.css                            | PostCSS    |        189 |         22 |         29 |        240 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\css\vendor\font-awesome.css                          | PostCSS    |        254 |         31 |         19 |        304 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\css\vendor\morris.css                                | PostCSS    |          2 |          0 |          0 |          2 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\font\fontawesome-webfont.svg                         | XML        |        255 |          0 |          0 |        255 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\bundles\codemirror.js                        | JavaScript |          3 |          0 |          0 |          3 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\bundles\core-bundle.js                       | JavaScript |          8 |          0 |          0 |          8 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\codemirror.markpopovertext.js                | JavaScript |         62 |          3 |         13 |         78 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\plato-display.js                             | JavaScript |         49 |          2 |          9 |         60 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\plato-file.js                                | JavaScript |        127 |          4 |         22 |        153 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\plato-overview.js                            | JavaScript |        152 |         10 |         27 |        189 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\plato-sortable-file-list.js                  | JavaScript |         64 |         30 |         32 |        126 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\bootstrap-popover.js                  | JavaScript |         59 |         28 |         31 |        118 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\bootstrap-tooltip.js                  | JavaScript |        263 |         28 |         96 |        387 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\codemirror.js              | JavaScript |      3,730 |        373 |        451 |      4,554 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\javascript.js              | JavaScript |        359 |         14 |         39 |        412 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\closetag.js           | JavaScript |         54 |         24 |          8 |         86 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\colorize.js           | JavaScript |         23 |          0 |          7 |         30 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\continuecomment.js    | JavaScript |         32 |          1 |          4 |         37 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\continuelist.js       | JavaScript |         27 |          0 |          2 |         29 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\dialog.css            | PostCSS    |         28 |          0 |          5 |         33 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\dialog.js             | JavaScript |         71 |          1 |          4 |         76 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\foldcode.js           | JavaScript |        164 |         10 |          9 |        183 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\formatting.js         | JavaScript |         92 |          7 |         10 |        109 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\javascript-hint.js    | JavaScript |        119 |         10 |          9 |        138 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\loadmode.js           | JavaScript |         47 |          0 |          5 |         52 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\match-highlighter.js  | JavaScript |         36 |          5 |          6 |         47 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\matchbrackets.js      | JavaScript |         58 |          0 |          6 |         64 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\multiplex.js          | JavaScript |         86 |          1 |          9 |         96 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\overlay.js            | JavaScript |         45 |          8 |          7 |         60 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\pig-hint.js           | JavaScript |         97 |          5 |         16 |        118 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\runmode-standalone.js | JavaScript |         84 |          1 |          6 |         91 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\runmode.js            | JavaScript |         48 |          1 |          4 |         53 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\search.js             | JavaScript |        108 |          7 |          5 |        120 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\searchcursor.js       | JavaScript |        106 |          5 |          9 |        120 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\simple-hint.css       | PostCSS    |         16 |          0 |          1 |         17 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\simple-hint.js        | JavaScript |         80 |         15 |          8 |        103 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\codemirror\util\xml-hint.js           | JavaScript |         99 |          0 |         33 |        132 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\jquery-1.8.3.min.js                   | JavaScript |          1 |          1 |          0 |          2 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\jquery.fittext.js                     | JavaScript |         17 |         15 |         11 |         43 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\lodash.min.js                         | JavaScript |         51 |          5 |          0 |         56 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\morris.min.js                         | JavaScript |          1 |          0 |          0 |          1 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\assets\scripts\vendor\raphael-min.js                        | JavaScript |          1 |          8 |          1 |         10 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\display.html                                                | HTML       |         82 |          3 |         17 |        102 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\files\server_js\index.html                                  | HTML       |        242 |          3 |         40 |        285 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\files\server_js\report.history.js                           | JavaScript |          1 |          0 |          0 |          1 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\files\server_js\report.history.json                         | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\files\server_js\report.js                                   | JavaScript |          1 |          0 |          0 |          1 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\files\server_js\report.json                                 | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\index.html                                                  | HTML       |        122 |          3 |         24 |        149 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\report.history.js                                           | JavaScript |          1 |          0 |          0 |          1 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\report.history.json                                         | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\report.js                                                   | JavaScript |          1 |          0 |          0 |          1 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\report\report.json                                                 | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\server.js                                                          | JavaScript |        129 |         14 |         27 |        170 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\server_transpiled.js                                               | JavaScript |        162 |         12 |         13 |        187 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\views\hamburger.ejs                                                | HTML       |         33 |          6 |          8 |         47 |
+| c:\Users\maidu\Music\OneDrive\ドキュメント\express__app\views\index.ejs                                                    | HTML       |         13 |          0 |          3 |         16 |
+| Total                                                                                                                |            |     16,378 |        761 |      2,208 |     19,347 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

@@ -11,12 +11,6 @@
         { x: 8, y: 4, emoji: "🧾", type: "serve" }
     ];
 
-    const BURGER_RECIPES = {
-        "ハンバーガー": ["🫓", "🥩", "🥬"],
-        "ベジバーガー": ["🫓", "🥬", "🍅"],
-        "ミートサンド": ["🫓", "🥩"]
-    };
-
     // ====== 状態 ======
     let spawnedItems = [], px = 1, py = 1, holding = null;
     let timer = parseInt(document.getElementById("timer").textContent, 10) || 120;
